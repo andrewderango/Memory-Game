@@ -1,5 +1,11 @@
 # Memory Game
 ### Background
-This application was developed as a component of my thesis group's research project in our Grade 12 biology class. In a team of 4, we spent 5 months writing our thesis and conducting tests on how the volume of music affects the listener's ability to concentrate.
+This application was developed as a component of my thesis group's research project in our Grade 12 biology class. In a team of 4, we spent 5 months writing our thesis and conducting tests on how the volume of music affects the listener's ability to concentrate. To investigate this relationship, we measured the volume of music's effect on 3 components that would be affected by one's level of concentration: 
 
-How the Volume of Music Affects one's Concentration. This game was designed to measure the participants' working memory.
+1. Reaction Time
+2. Balance
+3. Working Memory
+
+This application aims to measure an individual's working memory. In our paper, we define working memory as "a cognitive system that is responsible for the temporary storage and manipulation of information," and is "related to the ability of an individual to voluntarily orient their attention to certain stimuli and suppress less relevant information." We hypothesized that intense auditory stimuli may disrupt the dopaminergic neuromodulatory system, which has been shown to inhibit neuronal firing in the prefrontal cortex. Nonetheless, with this app, we were able to provide statistically significant data that indicates an concentration and the volume of music have an inverse relationship.
+
+### How the Game Works
