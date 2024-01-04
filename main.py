@@ -1,6 +1,5 @@
 from tkinter import *
 import random
-import time
 from master_word_list import words
 
 root = Tk()
@@ -31,8 +30,8 @@ def user_guessed(clicked):
     if current_word not in seen_word_list:
         seen_word_list.append(current_word) #Add the current word to the seen list unless it's already in it.
 
-    if current_word in master_word_list:
-        master_word_list.remove(current_word) #Remove the current word from the master list.
+    if current_word in words:
+        words.remove(current_word) #Remove the current word from the master list.
 
     last_word = current_word
 
@@ -40,7 +39,7 @@ def user_guessed(clicked):
     valid_word = False
     while valid_word == False:
         if random.randint(1,100) > probability_of_repeat or score <= 3:
-            current_word = random.choice(master_word_list)
+            current_word = random.choice(words)
         else:
             current_word = random.choice(seen_word_list)
         
